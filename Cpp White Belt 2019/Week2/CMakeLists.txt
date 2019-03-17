@@ -4,3 +4,4 @@ project(Week2)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Factorial week2-factorial.cpp)
+add_executable(ReverseVector2 week2-reverse-vector2.cpp)
