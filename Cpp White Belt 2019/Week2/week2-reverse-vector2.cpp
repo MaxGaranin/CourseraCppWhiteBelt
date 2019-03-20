@@ -4,7 +4,7 @@
 
 using namespace std;
 
-vector<int> Reversed(vector<int>& v) {
+vector<int> Reversed(const vector<int>& v) {
     vector<int> result;
 
     for (int i = 0; i < v.size(); ++i) {
@@ -23,8 +23,9 @@ void PrintIntVector(const vector<int>& v) {
 
 int main() {
     vector<int> numbers = {1, 5, 3, 4, 2};
-    auto result = Reversed(numbers);
     PrintIntVector(numbers);
+
+    auto result = Reversed(numbers);
     PrintIntVector(result);
 
     return 0;
