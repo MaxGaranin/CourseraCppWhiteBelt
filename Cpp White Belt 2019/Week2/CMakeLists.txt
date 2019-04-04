@@ -4,4 +4,4 @@ project(Week2)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Factorial week2-factorial.cpp)
-add_executable(NamesLastnames2 week3-names-lastnames2.cpp)
+add_executable(Destructors week3-destructors.cpp)
